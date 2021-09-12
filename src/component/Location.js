@@ -9,6 +9,12 @@ export class Location extends Component {
           {this.props.lon} / {this.props.lat}
         </h2>
         <h2>{this.props.type}</h2>
+        <img
+          src={this.props.imgURL}
+          alt="Girl in a jacket"
+          width="500"
+          height="600"
+        />
       </div>
     );
   }
